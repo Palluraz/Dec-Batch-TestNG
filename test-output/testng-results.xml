@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40176" started-at="2023-01-11T17:41:10Z" finished-at="2023-01-11T17:41:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40176" started-at="2023-01-11T17:41:10Z" finished-at="2023-01-11T17:41:50Z">
+      <class name="com.itview.actualtestcase.EducationLoanEMI_Test">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.itview.actualtestcase.EducationLoanEMI_Test@3327bd23]" name="beforeTest" is-config="true" duration-ms="18446" started-at="2023-01-11T17:41:10Z" finished-at="2023-01-11T17:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="EducationLoanEMI()[pri:0, instance:com.itview.actualtestcase.EducationLoanEMI_Test@3327bd23]" name="EducationLoanEMI" duration-ms="21178" started-at="2023-01-11T17:41:28Z" finished-at="2023-01-11T17:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EducationLoanEMI -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.itview.actualtestcase.EducationLoanEMI_Test@3327bd23]" name="afterTest" is-config="true" duration-ms="489" started-at="2023-01-11T17:41:50Z" finished-at="2023-01-11T17:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.itview.actualtestcase.EducationLoanEMI_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
