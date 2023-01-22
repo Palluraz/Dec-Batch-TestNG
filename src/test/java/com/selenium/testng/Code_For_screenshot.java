@@ -24,7 +24,7 @@ public class Code_For_screenshot
   {
 	  String ProjectPath=System.getProperty("user.dir"); // current project path return
 	  System.out.println(ProjectPath);
-	  String ScreenshotPath=
+	 // String ScreenshotPath=
   }
 
   @AfterTest

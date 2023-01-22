@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
@@ -18,8 +19,8 @@ public class HardAssertTest
   @BeforeTest
   public void beforeTest_MutualFund() 
   {
-	  WebDriverManager.chromedriver().setup();
-	  w=new ChromeDriver();
+	  WebDriverManager.firefoxdriver().setup();
+	  w=new FirefoxDriver();
   }
   
   @Test(priority=0,description="Test Case to verify login Page using 'Admin' user", groups = "LoginModule")

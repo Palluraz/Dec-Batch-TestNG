@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.itview.actualtestcase.CreditCardDebtPayoff_Test">
+      <class name="com.selenium.testng.HardAssertTest">
         <methods>
+          <include name="logoutAdminTest"/>
+          <include name="beforeTest_MutualFund"/>
+          <include name="loginAdminTest"/>
           <include name="afterTest"/>
-          <include name="CreditCardDebtPayoff_Test1"/>
-          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.itview.actualtestcase.CreditCardDebtPayoff_Test -->
+      </class> <!-- com.selenium.testng.HardAssertTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
